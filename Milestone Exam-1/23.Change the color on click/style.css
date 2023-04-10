@@ -1,0 +1,32 @@
+/* designing the body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* designing the button */
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #e79b9b;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #ff3f2d;
+  }
+
+  /* css for responsive */
+  @media only screen and (max-width:600px) {
+    button {
+        padding: 12px;
+        font-size: 14px;
+        border-radius: 18px;
+        background-color: #be0b7f;
+      }
+      button:hover{
+        cursor: pointer;
+        background-color: #12c5e9;
+      }
+  }

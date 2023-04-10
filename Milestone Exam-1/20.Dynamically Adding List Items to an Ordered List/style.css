@@ -1,0 +1,82 @@
+/* font Changa one */
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* designing the body */
+body {
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #ed0808 0%, #9a0888 39%, #1af1eb 83%);
+    font-family: 'Changa One', cursive;
+}
+.flex {
+    display: flex;
+}
+/* designing the box */
+.container {
+    padding: 15px;
+    background-color: #f1fe87;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    width: 450px;
+    box-shadow: 10px 30px 30px #310128;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* designing the list items */
+.container li {
+    color: #6c6c6f;
+    list-style:decimal;
+    font-size: 18px;
+    margin: 5px 25px;
+}
+.container div {
+    width: 100%;
+}
+/* designing the button */
+.container button {
+    place-content: center;
+    width: 30%;
+    padding: 12px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius:65px;
+}
+.container button:hover {
+    transform: translateY(-3px);
+}
+#del-btn {
+    background-color: #403f3f;
+    
+}
+
+#add-btn {
+    background-color: #403f3f;
+}
+
+#del-btn:hover{
+    background-color: #e88c8c;
+}
+#add-btn:hover{
+    background-color: #e88c8c;
+}

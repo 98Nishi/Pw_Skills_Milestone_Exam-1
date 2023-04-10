@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monoton', cursive;
+}
+
+body {
+    background-color:#12003c;
+}
+/* designing the sections */
+section{
+    color: #ffdf12;
+    font-size: 4em;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.first{
+    background: #2233c3;
+    background: linear-gradient(175deg, #2233c3 0%, #ae7676 100%);
+}
+.second{
+    color: #12003c;
+    background: #84f121;
+    background: linear-gradient(90deg, #84f121 13%, #9fefe1 54%, #ff3528 100%);
+}
+.third{
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+}
+.fourth{
+    color: #12003c;
+    background-color: #f96c6c;
+}
+/* designing the progress bar */
+.progress-bar{
+    position: fixed;
+    width: 100%;
+    height: 3.5vh;
+}
+.filled {
+    width: 0;
+    height: 100%;
+    background-image:linear-gradient(to right, #ff0000,#610251);
+}

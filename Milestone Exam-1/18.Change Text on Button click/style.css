@@ -1,0 +1,59 @@
+
+/* font Kaushan Script */
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    background: #3e52ed;
+    background: linear-gradient(167deg, #3e52ed 0%, #1c7076 49%, #747273 100%);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+    background-color: #e4d7d7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #140242;
+    margin-inline: 15px;
+}
+
+.container h1 {
+    font-size: 30px;
+    color: #12047d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container button {
+    border: none;
+    border-radius:50px ;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f83636;
+    color: #eeeded;
+    cursor: pointer;
+    transition: .4s;
+    padding: 15px 25px;
+}
+
+.container button:hover {
+    background-color: #450b38;
+    transform: translateY(-5px);
+}
